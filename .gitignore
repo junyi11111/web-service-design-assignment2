@@ -1,0 +1,4 @@
+# 루트 수준 제외 (starter/ 내부는 starter/.gitignore가 처리)
+.DS_Store
+node_modules/
+.env
