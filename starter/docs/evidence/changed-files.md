@@ -20,6 +20,9 @@
 | `docs/evidence/design-notes.md` | 대기자 SQL·트랜잭션 경계·이력 순서 설명 |
 | `docs/evidence/changed-files.md` | 이 문서 |
 | `docs/evidence/reproduce.md` | 실행 재현 명령 |
+| `scripts/ui-verify.mjs` | 화면 검증 U01~U05 자동 수행 스크립트(Playwright headless Chromium, 화면 버튼 실제 클릭). Playwright는 저장소에 포함하지 않고 `/tmp/ui-check`에 따로 설치해 실행합니다(재현 방법은 파일 맨 위 주석). `package.json`·`package-lock.json`은 변경하지 않았습니다 |
+| `docs/evidence/ui-verification.md` | U01~U05 수행 단계, 스크린샷별 설명, 실제 결과, DB 확인값, 토큰·서명 키 노출 검사 결과 |
+| `docs/evidence/screens/` | U01~U05 단계별 스크린샷 20장(`U01-1_…png` ~ `U03-3_…png`) |
 
 ## 변경하지 않은 제공 코드
 
